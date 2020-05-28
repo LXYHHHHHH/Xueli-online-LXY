@@ -1,0 +1,406 @@
+/*导航1*/
+.header{
+	height:101px;
+	width:1230px;
+	margin:0 auto;
+}
+.xueli1{
+	float:left;
+	margin-top:33px;
+	margin-right:56px;
+	margin-left:9px;
+}
+.nav1{
+	float:left;
+	position:relative;
+	margin-top:41px;
+}
+.href{
+	float:right;
+	margin-top:42px;
+	margin-right:42px;
+	margin-left:31px;
+}
+.href a{
+	font-size:14px;
+	font-family:"Microsoft YaHei";
+	font-weight:400;
+	color:rgba(102,102,102,1);
+}
+.form1{
+	float:right;
+	margin-top:31px;
+}
+.nav1 li{
+	float:left;
+	margin:0 15px;
+	
+}
+.nav1 a{
+	padding:0 8px;
+	padding-bottom:10px;
+	font-size:18px;
+	font-family:"Microsoft YaHei";
+	font-weight:400;
+	color:rgba(5,5,5,1);
+}
+.nav1 a:hover{
+	border-bottom:2px solid rgba(0,164,255,1);;
+}
+.search{
+	float:left;
+	width:322px;
+	height:14px;
+	border:1px solid rgba(0, 164, 255, 1);
+	padding:13px 19px;
+}
+.submit{
+	float:left;
+	width:51px;
+	height:42px;
+	background:rgba(0, 164, 255, 1) no-repeat url(../image/search.png) center center;
+	border:none;
+}
+/*----------------------------*/
+
+/*banner图*/
+.banner{
+	width:100%;
+	height:420px;
+	position:relative;
+	background:url(../image/banner1.png) no-repeat center center;
+}
+.banner-2{
+	width:1200px;
+	height:420px;
+	position:relative;
+	margin:0 auto;
+}
+.banner-2{
+	background:url(../image/banner2.png) no-repeat center center;
+}
+.banner-3{
+	width:190px;
+	height:420px;
+	background:url(../image/banner3.png) no-repeat center center;
+	position:absolute;
+	left:0;
+}
+.nav2{
+	float:left;
+	width:150px;
+	height:365px;
+	margin-top:12px;
+	margin-left:20px;
+}
+.nav2 li{
+	position:static;
+	float:left
+	width:150px;
+	height:44px;
+}
+.nav2 a{
+	width:150px;
+	float:left;
+	font-size:14px;
+	font-family:"Microsoft YaHei";
+	font-weight:400;
+	line-height:44px;
+	color:rgba(255, 255, 255, 1);
+	background:url(../image/arrow1.png) no-repeat center right;
+}
+.nav2 a:hover{
+	color:rgba(0, 180, 255, 1);
+	background:url(../image/arrow2.png) no-repeat center right;
+}
+/*----------------------------*/
+
+/*内容*/
+.cont{
+	width:100%;
+	background:rgba(243, 245, 247, 1);
+}
+/*--导航2*/
+.frame{
+	width:1200px;
+	height:60px;
+	background:rgba(255,255,255,1);
+	box-shadow:0px 2px 3px 0px rgba(118,118,118,0.2);
+	margin:0 auto;
+}
+.nav3{
+	float:left;
+	margin-top:21px;
+	margin-left:7px;
+}
+.nav3 li{
+	float:left;
+	width:125px;
+	height:18px;
+	border-right:1px solid rgba(191,191,191,1);
+	text-align:center;
+}
+.nav3 a{
+	font-size:16px;
+	font-family:"Microsoft YaHei";
+	color:rgba(5, 5, 5, 1);
+}
+.nav3 a:hover{
+	color:rgba(0, 164, 255, 1);
+	font-weight:bold;
+}
+.nav3 .last{
+	border:none;
+}
+.mod{
+	float:right;
+	margin:21px 61px;
+}
+.mod a{
+	font-size:16px;
+	color:rgba(0, 164, 255, 1);
+}
+/*--1精品推荐*/
+.container1{
+	width:1214px;
+	height:639px;
+	margin:0 auto;
+}
+.title-1{
+	height:70px;
+	position:relative;
+}
+.title-1>p{
+	float:left;
+	margin-top:37px;
+	margin-left:7px;
+	font-size:20px;
+	font-family:"Microsoft YaHei";
+	font-weight:400;
+	color:rgba(73,73,73,1);
+}
+.title-1>a{
+	position:absolute;
+	right:38px;
+	top:44px;
+	font-size:12px;
+	font-family:"Microsoft YaHei";
+	font-weight:400;
+	color:rgba(165,165,165,1);
+}
+.item1 li{
+	float:left;
+	position:relative;
+	background:rgba(255,255,255,1);
+	box-shadow:0px 2px 5px 0px rgba(118,118,118,0.5);
+	margin:7px 7px;
+}
+.item1 img{
+	width:228px;
+	height:155px;
+	vertical-align:bottom;
+}
+.des1{
+	width:185px;
+	height:65px;
+	padding:24px 16px 26px 23px;
+}
+.des11{
+	font-size:14px;
+	font-family:"Microsoft YaHei";
+	font-weight:400;
+	color:rgba(5,5,5,1);
+	line-height:20px;
+	margin-bottom:6px;
+}
+.orange{
+	font-size:12px;
+	font-family:"Microsoft YaHei";
+	font-weight:400;
+	color:rgba(255, 124, 45, 1);
+}
+.grey{
+	font-size:12px;
+	font-family:"Microsoft YaHei";
+	font-weight:400;
+	color:rgba(96, 96, 96, 1);
+}
+/*--2前端开发工程师*/
+.container2{
+	width:1214px;
+	height:354px;
+	margin:0 auto;
+}
+.nav4{
+	position:absolute;
+	margin-top:34px;
+	margin-left:401px;
+}
+.title-2>p{
+	margin-top:30px;
+}
+.title-2>a{
+	top:37px;
+}
+.nav4>li{
+	float:left;
+	margin:0 35px;
+}
+.nav4 a{
+	font-size:16px;
+	font-family:"Microsoft YaHei";
+	font-weight:400;
+	color:rgba(134, 134, 134, 1);
+}
+.nav4 a:hover{
+	color:rgba(0, 164, 255, 1);
+}
+.des12{
+	margin-bottom:26px;
+}
+/*--3牛人推荐*/
+.container3{
+	width:1214px;
+	height:473px;
+	margin:0 auto;
+}
+.title-3{
+	height:80px;
+	position:relative;
+}
+.title-3>p{
+	float:left;
+	margin-top:28px;
+	margin-left:7px;
+	font-size:20px;
+	font-family:"Microsoft YaHei";
+	font-weight:400;
+	color:rgba(73,73,73,1);
+}
+.ad>img{
+	width:471px;
+	height:320px;
+}
+.ad{
+	width:471px;
+	height:320px;
+	float:left;
+	margin:0 7px;
+}
+.human>img{
+	width:228px;
+	height:320px;
+}
+.human{
+	width:228px;
+	height:320px;
+	margin:0 7px;
+	float:left;
+	position:relative;
+}
+.des2{
+	width:175px;
+	height:83px;
+	background:rgba(0,0,0,0.5);
+	position:absolute;
+	bottom:0;
+	left:0;
+	padding:21px 28px 18px 25px;
+}
+
+.pro{
+	font-size:14px;
+	font-family:"Microsoft YaHei";
+	color:rgba(255,255,255,1);
+	line-height:20px;
+}
+.name{
+	font-size:18px;
+	font-family:"Microsoft YaHei";
+	font-weight:bold;
+	color:rgba(255,255,255,1);
+	line-height:20px;
+}
+.intro1{
+	margin-bottom:6px;
+}
+.intro2{
+	font-size:12px;
+	font-family:"Microsoft YaHei";
+	font-weight:400;
+	color:rgba(255,255,255,1);
+	line-height:20px;
+}
+/*----------------------------*/
+
+/*页脚*/
+.footer{
+	width:100%;
+	height:417px;
+	background:rgba(255,255,255,1);
+}
+.container4{
+	width:1200px;
+	height:417px;
+	margin:0 auto;
+}
+.container4>ul{
+	float:right;
+}
+.left{
+	float:left;
+}
+.left>img{
+	margin-top:124px;
+	margin-left:21px;
+}
+.intro3{
+	margin-top:35px;
+	margin-left:23px;
+	font-size:12px;
+	font-family:"SimSun";
+	font-weight:400;
+	color:rgba(102,102,102,1);
+}
+
+
+.class{
+	font-size:16px;
+	font-family:"Microsoft YaHei";
+	font-weight:400;
+	color:rgba(51,51,51,1);
+	margin-bottom:14px;
+}
+.item2>a{
+	font-size:12px;
+	font-family:"SimSun";
+	font-weight:400;
+	color:rgba(51,51,51,1);
+}
+.download{
+	width:120px;
+	height:36px;
+	border:1px solid rgba(0, 164, 255, 1);
+	margin-top:33px;
+	margin-left:22px;
+}
+.download>a{
+	font-size:16px;
+	font-family:"Microsoft YaHei";
+	font-weight:400;
+	color:rgba(0,164,255,1);
+	line-height:36px;
+	margin-left:27px;
+}
+.line1{
+	margin-right:28px;
+	margin-top:130px;
+}
+.line2{
+	margin-right:121px;
+	margin-top:130px;
+}
+.line3{
+	margin-right:146px;
+	margin-top:130px;
+}
